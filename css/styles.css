@@ -176,8 +176,8 @@ bottom: -28px;
   max-width: 1440px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -191,9 +191,9 @@ bottom: -28px;
 }
 
 .hero-title {
-  width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
+  width: 320px;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);

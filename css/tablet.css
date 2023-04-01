@@ -1,8 +1,25 @@
 @media screen and (min-width: 768px) {
     .container {
-      width: 558px;
+      width: 720px;
     }
-  
+
+    /* ============ HERO============ */
+
+    .hero > .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 720px;
+    }
+
+    .hero-title {
+      width: 496px;
+      margin-bottom: 40px;
+      font-size: 56px;
+      line-height: 1.07;
+    }
+    
+    /* =======TEAM========== */
+
     .team {
       padding-top: 96px;
       padding-bottom: 96px;
@@ -17,6 +34,8 @@
       width: calc((100% - 30px) / 2);
     }
   
+    /* =================CUSTOMERS=================== */
+
     .customers-container {
       padding-top: 96px;
       padding-bottom: 96px;

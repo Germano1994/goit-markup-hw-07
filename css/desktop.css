@@ -2,7 +2,17 @@
     .container {
       width: 1158px;
     }
-  
+
+   /* ============ HERO============ */
+
+    .hero > .container {
+      width: 1158px;
+      padding-top: 188px;
+      padding-bottom: 188px;
+    }
+
+   /* =======TEAM========== */
+
     .team {
       padding-top: 120px;
       padding-bottom: 120px;
@@ -12,6 +22,8 @@
       width: calc((100% - 90px) / 4);
     }
   
+    /* =================CUSTOMERS=================== */
+
     .customers-container {
       padding-top: 120px;
       padding-bottom: 120px;

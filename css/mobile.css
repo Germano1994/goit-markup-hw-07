@@ -2,4 +2,11 @@
     .container {
       width: 396px;
     }
+
+    /* ============ HERO============ */
+
+    .hero {
+      padding-top: 112px;
+  padding-bottom: 112px;
+    }
   }
