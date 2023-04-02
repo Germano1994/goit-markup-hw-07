@@ -51,6 +51,80 @@
           </li>
         </ul>
       </address>
+      <button type="button" class="menu-open" data-menu-open>
+        <svg class="menu-open-icon" width="32" height="22">
+          <use href="./images/sprite.svg#icon-hamburger"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mob-menu is-hidden" data-menu>
+      <div class="container">
+        <div class="mob-menu-top">
+      <button type="button" class="menu-close" data-menu-close>
+        <svg class="menu-close-icon" width="8" height="8">
+          <use href="./images/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="mob-menu-list list">
+        <li class="mob-menu-item">
+          <a class="mob-menu-link link current active" href="">Studio</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-link link" href="">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="mob-menu-nav">
+    <address class="nav">
+      <ul class="list contact-mob-menu">
+        <li class="contact">
+          <a class="mob-menu-email link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact">
+          <a class="mob-menu-phone link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </address>
+  </div>
+    <ul class="mob-soc-list list">
+      <li class="mob-soc-list-item">
+        <a href="" class="mob-soc-list-link">
+          <svg class="mob-soc-list-icon" width="24" height="24">
+            <use href="./images/sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mob-soc-list-item">
+        <a href="" class="mob-soc-list-link">
+          <svg class="mob-soc-list-icon" width="24" height="24">
+            <use href="./images/sprite.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mob-soc-list-item">
+        <a href="" class="mob-soc-list-link">
+          <svg class="mob-soc-list-icon" width="24" height="24">
+            <use href="./images/sprite.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mob-soc-list-item">
+        <a href="" class="mob-soc-list-link">
+          <svg class="mob-soc-list-icon" width="24" height="24">
+            <use href="./images/sprite.svg#icon-linkedin"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
     </div>
     </header>
     <main>
@@ -153,6 +227,7 @@
         <ul class="list employees card">
           <li class="team-card">
             <img
+            srcset="./images/team/mark-guerrero.jpg 1x, ./images/team/mark-guerrero-2x.jpg 2x"
               src="./images/team/mark-guerrero.jpg"
               alt="mark-guerrero"
               width="264"
@@ -194,6 +269,7 @@
           </li>
           <li class="team-card">
             <img
+            srcset="./images//team/tom-ford.jpg 1x, ./images//team/tom-ford-2x.jpg 2x"
               src="./images/team/tom-ford.jpg"
               alt="tom-ford"
               width="264"
@@ -235,6 +311,7 @@
           </li>
           <li class="team-card">
             <img
+            srcset="./images/team/camila-garcia.jpg 1x, ./images/team/camila-garcia-2x.jpg 2x"
               src="./images/team/camila-garcia.jpg"
               alt="camila-garcia"
               width="264"
@@ -276,6 +353,7 @@
           </li>
           <li class="team-card">
             <img
+            srcset="./images/team/daniel-wilson.jpg 1x, ./images/team/daniel-wilson-2x.jpg 2x"
               src="./images/team/daniel-wilson.jpg"
               alt="daniel-wilson"
               width="264"
@@ -497,5 +575,6 @@
         </div>
       </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

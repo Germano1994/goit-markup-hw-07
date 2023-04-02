@@ -3,6 +3,120 @@
       width: 396px;
     }
 
+    /* ===============HEADER============== */
+
+    .logo {
+      margin-right: 76px;
+    }
+    
+    
+    
+    .menu-item:not(:last-child) {
+      margin-right: 40px;
+    }
+    
+    .logo {
+      text-decoration: none;
+      font-family: var(--secondary-font);
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.3;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--color-navy-blue);
+    }
+    .accent {
+      color: var(--color-iris);
+    }
+    
+    .menu-open {
+      width: 32px;
+      height: 22px;
+      padding: 0;
+      background-color: transparent;
+      border: none;
+      
+    }
+
+    .menu-open-icon {
+      stroke: #2E2F42;
+    }
+
+    .mob-menu {
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      width: 100vw;
+      height: 100vh;
+      background-color: #ffffff;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
+    .mob-menu > .container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: auto;
+    }
+
+    .menu-close {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #E7E9FC;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-bottom: 32px;
+    }
+
+    .mob-menu-list {
+      margin-bottom: 284px;
+    }
+
+    .mob-menu-item:not(:last-child) {
+      margin-bottom: 40px;
+    }
+
+    .mob-menu-link {
+      font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+    }
+
+    .mob-menu-phone {
+      font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+color: #4D5AE5;
+display: block;
+margin-bottom: 48px;
+    }
+
+    .mob-menu-email {
+      font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+display: block;
+margin-bottom: 40px;
+    }
+
+    .mob-soc-list {
+      display: flex;
+      justify-content: center;
+      gap: 56px;
+    }
+
     /* ============ HERO============ */
 
     .hero {
@@ -21,6 +135,43 @@
     url(../images/hero-bg-mob-2x.jpg);
     }
 }
+  }
+
+  /* ==================DISCRIPTION============== */
+
+  .discription {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .discrip-box {
+    display: none;
+  }
+
+
+  .discrip-text {
+    width: 396px;
+  }
+
+  .subtitle-discrip {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+margin-bottom: 8px;
+  }
+
+  .discription-text {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
   }
 
    /* ================WHAT ARE WE DOING=================== */

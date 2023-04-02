@@ -81,8 +81,13 @@ body {
   align-items: center;
 }
 
-.contact-header {
-  display: flex;
+.contact-header,
+.menu {
+  display: none;
+}
+
+/* .contact-header {
+  display: none;
   align-items: center;
 }
 
@@ -91,7 +96,7 @@ body {
 }
 
 .menu {
-  display: flex;
+  display: none;
   align-items: center;
 }
 
@@ -166,7 +171,7 @@ bottom: -28px;
 .contact-phone:hover,
 .contact-phone:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ============ /HEADER============ */
 
@@ -238,6 +243,10 @@ bottom: -28px;
 
 /* ===============DISCRIPTION================ */
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .hidden {
   position: absolute;
   white-space: nowrap;
@@ -261,7 +270,8 @@ bottom: -28px;
 .discrip {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  /* gap: 24px; */
+  gap: 72px;
 }
 
 .discrip-text {
