@@ -97,6 +97,11 @@ text-transform: capitalize;
 color: #2E2F42;
     }
 
+    .mob-menu-link:hover,
+    .mob-menu-link:focus {
+      color: #404BBF;
+    }
+
     .mob-menu-phone {
       font-weight: 600;
 font-size: 36px;
@@ -199,4 +204,8 @@ color: #434455;
   }
 
   /* =======TEAM========== */
+
+
+
+  /* ==========FOOTER============== */
   
