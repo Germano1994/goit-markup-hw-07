@@ -363,7 +363,8 @@ bottom: -28px;
 }
 
 .team-card {
-  width: 100%;
+  display: block;
+  margin: auto;
   /* flex-basis: calc((100% - 72px) / 4); */
   background: var(--color-white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -449,8 +450,11 @@ bottom: -28px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  /* gap: 24px; */
+  gap: 16px;
 }
+
+
 
 .customers-list-item {
   /* width: 100%; */

@@ -61,6 +61,12 @@
       overflow: auto;
     }
 
+    .mob-menu.is-hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
     .menu-close {
       width: 24px;
       height: 24px;
@@ -191,3 +197,6 @@ color: #434455;
    .team-section {
     display: none;
   }
+
+  /* =======TEAM========== */
+  
