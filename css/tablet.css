@@ -18,6 +18,10 @@
       display: block;
       align-items: center;
     }
+
+    .menu-open-icon {
+      display: none;
+    }
     
     
     .menu-item:not(:last-child) {
@@ -126,6 +130,15 @@
       margin-bottom: 40px;
       font-size: 56px;
       line-height: 1.07;
+    }
+
+    /* ===============DISCRIPTION================ */
+
+    .discript {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 72px;
+      text-align: center;
     }
 
     /* ================WHAT ARE WE DOING=================== */
