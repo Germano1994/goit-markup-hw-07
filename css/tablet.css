@@ -6,8 +6,8 @@
     /* ===============HEADER============== */
 
     .contact-header {
-      display: block;
-      align-items: center;
+      display: flex;
+      flex-direction: column;
     }
     
     .logo {
@@ -76,6 +76,7 @@
     .contact {
       margin-right: auto;
     }
+
     
     .contact-email,
     .contact-phone {
@@ -134,7 +135,7 @@
 
     /* ===============DISCRIPTION================ */
 
-    .discript {
+    .discrip {
       display: flex;
       flex-wrap: wrap;
       gap: 72px;
