@@ -15,7 +15,7 @@
     }
     
     .menu {
-      display: block;
+      display: flex;
       align-items: center;
     }
 
@@ -74,7 +74,7 @@
     }
     
     .contact {
-      margin-right: 40px;
+      margin-right: auto;
     }
     
     .contact-email,
@@ -175,8 +175,37 @@
     .customers-list-item {
       width: calc((100% - 60px) / 3);
     }
+
+    .customers-list-link {
+      width: 168px;
+    }
   
-  }
 
   /* ==========FOOTER============== */
   
+  .footer > .container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 552px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    
+}
+
+  .footer-logo {
+    color: var(--color-cloud);
+  }
+
+  .title-media {
+    text-align: left;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+
+}
+}

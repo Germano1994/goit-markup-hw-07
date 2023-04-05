@@ -153,7 +153,7 @@ margin-bottom: 48px;
     url(../images/hero-bg-mob-2x.jpg);
     }
 }
-  }
+  
 
   /* ==================DISCRIPTION============== */
 
@@ -197,11 +197,20 @@ color: #434455;
     display: none;
   }
 
+  .footer-logo {
+    color: var(--color-cloud);
+    display: flex;
+    justify-content: flex-end;
+}
+
+}
+
   /* =======TEAM========== */
 
 
 
   /* ==========FOOTER============== */
+  
   
 
 
@@ -360,7 +369,7 @@ margin-bottom: 48px;
     url(../images/hero-bg-mob-2x.jpg);
     }
 }
-  }
+  
 
   /* ==================DISCRIPTION============== */
 
@@ -422,6 +431,7 @@ color: #434455;
 
   /* ==========FOOTER============== */
 
+
   .modal-form-message-footer {
     display: block;
     width: 100%;
@@ -433,4 +443,14 @@ color: #434455;
   border-radius: 4px;
   background: var(--color-navy-blue);
   color: var(--color-white);
+
+  
   }
+
+  .footer-logo {
+    color: var(--color-cloud);
+    display: flex;
+    justify-content: flex-end;
+}
+
+}
