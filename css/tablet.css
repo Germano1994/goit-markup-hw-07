@@ -146,15 +146,25 @@
     }
 
     /* ===============DISCRIPTION================ */
-
-    
+   
 
     .discrip {
       display: flex;
-      flex-wrap: wrap;
-      gap: 72px;
-      text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
     }
+
+    .subtitle-discrip {
+      text-align: start;
+    }
+
+    .discrip-text {
+      flex-basis: calc((100% - 1 * 24px) / 2);
+    }
+
+    
 
     /* ================WHAT ARE WE DOING=================== */
     .team-section {
@@ -163,6 +173,11 @@
     
     /* =======TEAM========== */
 
+    .team > .container {
+      padding-left: 107px;
+      padding-right: 107px;
+  }
+
     .team {
       padding-top: 96px;
       padding-bottom: 96px;
@@ -170,16 +185,23 @@
       margin-right: auto;
     }
 
-    
+    .employees {
+      flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+}
+
+
     .title-team {
-      margin-bottom: 48px;
+      margin-bottom: 72px;
       
     }
   
     .team-card {
-      width: calc((100% - 30px) / 2);
+      flex-basis: calc((100% - 1 * 24px) / 2);
     }
-    
+
     
     /* =================CUSTOMERS=================== */
 

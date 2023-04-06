@@ -3,6 +3,17 @@
       width: 1158px;
     }
 
+    /* =====================HEADER============================= */
+
+    .contact-header {
+      display: flex;
+      align-items: center;
+  }
+
+  .contact {
+    margin-right: 40px;
+  }
+
    /* ============ HERO============ */
 
     .hero > .container {
@@ -31,15 +42,75 @@
     }
 }
 
+/* ====================DISCRIPTION======================= */
+.discription {
+  padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.discrip {
+  gap: 24px;
+}
+
+.discrip-text {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.discrip-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 24px 100px;
+  border-radius: 4px;
+  background-color: #f4f4fd
+}
+
+.discrip-icon {
+  display: block;
+    width: 64px;
+    height: 64px;
+}
+
+.subtitle-discrip {
+  margin-bottom: 8px;
+  color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.discription-text {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: #434455;
+}
+
    /* =======TEAM========== */
+
+   .team > .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
     .team {
       padding-top: 120px;
       padding-bottom: 120px;
     }
+
+    .employees {
+      flex-wrap: wrap;
+    column-gap: 24px;
+    }
   
     .team-card {
-      width: calc((100% - 90px) / 4);
+      flex-basis: calc((100% - 3 * 24px) / 4);
     }
   
     /* =================CUSTOMERS=================== */
@@ -48,9 +119,13 @@
       padding-top: 120px;
       padding-bottom: 120px;
     }
+
+    .customers-list {
+      gap: 24px;
+  }
   
     .customers-list-item {
-      width: calc((100% - 150px) / 6);
+      flex-basis: calc((100% - 5 * 24px) / 6);
     }
   
   }

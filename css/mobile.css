@@ -36,6 +36,22 @@
     .accent {
       color: var(--color-iris);
     }
+
+    .page-header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .page-nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-header,
+.menu {
+  display: none;
+}
     
     .menu-open {
       width: 32px;
@@ -207,6 +223,30 @@ color: #434455;
     display: none;
   }
 
+  /* =======TEAM========== */
+
+  .team > .container {
+    padding-left: 82px;
+    padding-right: 82px;
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+
+}
+
+.team-card {
+  background: var(--color-white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+  /* ======================CUSTOMERS================================= */
+
   .customers-list {
     display: flex;
     flex-wrap: wrap;
@@ -214,6 +254,8 @@ color: #434455;
     gap: 16px;
     row-gap: 72px;
 }
+
+/* ==========FOOTER============== */
 
   .footer-logo {
     color: var(--color-cloud);
@@ -241,13 +283,6 @@ color: #434455;
 
 }
 
-  /* =======TEAM========== */
-
-
-
-  /* ==========FOOTER============== */
-  
-  
 
 
   @media screen and (max-width: 479px) {
@@ -278,6 +313,22 @@ color: #434455;
     .accent {
       color: var(--color-iris);
     }
+
+    .page-header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .page-nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-header,
+.menu {
+  display: none;
+}
     
     .menu-open {
       width: 32px;
@@ -450,6 +501,21 @@ color: #434455;
   }
 
   /* =======TEAM========== */
+
+  .employees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+  
+  }
+  
+  .team-card {
+    background: var(--color-white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+  }
 
   .customers-list-link {
     display: flex;

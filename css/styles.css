@@ -62,7 +62,7 @@ body {
 /* ===============HEADER============== */
 
 
-.page-header-container {
+/* .page-header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,12 +71,12 @@ body {
 .page-nav {
   display: flex;
   align-items: center;
-}
+} */
 
-.contact-header,
+/* .contact-header,
 .menu {
   display: none;
-}
+} */
 
 /* .contact-header {
   display: none;
@@ -261,8 +261,7 @@ bottom: -28px;
 
 .discrip {
   display: flex;
-  flex-wrap: wrap;
-  /* gap: 24px; */
+  flex-direction: column;
   gap: 72px;
 }
 
@@ -345,25 +344,10 @@ bottom: -28px;
   text-transform: capitalize;
   color: var(--color-navy-blue);
   margin-bottom: 72px;
-  
 }
 
-.employees {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
 
-.team-card {
-  display: block;
-  margin: auto;
-  margin-bottom: 72px;
-  /* flex-basis: calc((100% - 72px) / 4); */
-  background: var(--color-white);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-}
+
 
 .team-card-content-wrapper {
   text-align: center;
