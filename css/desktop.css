@@ -127,5 +127,25 @@
     .customers-list-item {
       flex-basis: calc((100% - 5 * 24px) / 6);
     }
+
+    /* =============FOOTER=========================== */
+    .footer {
+      padding-top: 100px;
+      padding-bottom: 100px;
   
   }
+
+  .footer > .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
+.social-media-block {
+  margin-right: 80px;
+}
+
+}
