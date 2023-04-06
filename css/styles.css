@@ -425,6 +425,7 @@ body {
 
 .social-media-list {
   display: flex;
+  gap: 16px;
 }
 
 .sub-text {
@@ -432,11 +433,8 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 16px;
     max-width: 398px;
-}
-
-.media-list:not(:last-child) {
-  margin-right: 16px;
 }
 
 
@@ -458,7 +456,6 @@ body {
 
 
 .text-footer {
-  margin-bottom: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;

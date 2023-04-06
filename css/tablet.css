@@ -218,6 +218,13 @@
     padding-left: 108px;
     padding-right: 108px;
 }
+
+.footer-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  align-items: flex-start;
+}
     
 .footer-info {
   align-items: flex-start;
