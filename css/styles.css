@@ -327,8 +327,6 @@ body {
 .customers-container {
   padding-top: 96px;
   padding-bottom: 96px;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
 }
 
 .title-customers {
@@ -344,9 +342,7 @@ body {
 
 
 .customers-list-item {
-  /* width: 100%; */
   width: calc((100% - 30px) / 2);
-  /* width: 168px; */
   height: 88px;
 }
 
