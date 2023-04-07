@@ -1,6 +1,8 @@
 @media screen and (min-width: 1158px) {
     .container {
       width: 1158px;
+      padding-left: 15px;
+  padding-right: 15px;
     }
 
     /* =====================HEADER============================= */
@@ -28,8 +30,7 @@
 
    /* ============ HERO============ */
 
-    .hero > .container {
-      width: 1158px;
+    .hero  {
       padding-top: 188px;
       padding-bottom: 188px;
     }
@@ -109,11 +110,6 @@
   padding-bottom: 120px;
 }
 
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .team-work-title {
   margin-bottom: 72px;

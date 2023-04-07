@@ -98,11 +98,6 @@
 
     /* ============ HERO============ */
 
-    .hero > .container {
-      padding-left: 15px;
-      padding-right: 15px;
-      width: 720px;
-    }
 
     .hero {
       padding: 112px 136px;
@@ -126,8 +121,7 @@
 }
     
     .hero-title {
-      width: 496px;
-      margin-bottom: 40px;
+      max-width: 496px;
       font-size: 56px;
       line-height: 1.07;
     }

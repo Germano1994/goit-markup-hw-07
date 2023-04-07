@@ -52,8 +52,8 @@ body {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .logo {
@@ -90,7 +90,8 @@ body {
 
 .hero {
   max-width: 1440px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
   padding-top: 112px;
   padding-bottom: 112px;
@@ -119,18 +120,23 @@ body {
 }
 
 .hero-title {
-  width: 320px;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--color-white);
-  margin-bottom: 48px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 320px;
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #ffffff;
 }
 
+
 .hero-btn {
+  display: inline-block;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 32px;
