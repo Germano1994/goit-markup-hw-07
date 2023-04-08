@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     .container {
-      width: 768px;
+      max-width: 768px;
     }
 
     /* ===============HEADER============== */
@@ -66,14 +66,15 @@
       color: var(--accent-color);
     }
     
-    .contact {
-      margin-right: auto;
+    .contact:not(:last-child) {
+      margin-bottom: 12px;
     }
 
     
     .contact-email,
     .contact-phone {
       font-weight: 400;
+      display: block;
     font-style: normal;
     font-size: 12px;
     line-height: 1.17;
@@ -100,7 +101,7 @@
 
 
     .hero {
-      padding: 112px 136px;
+      padding: 112px 0;
       background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -119,15 +120,20 @@
     url(../images/hero-bg-tab-2x.jpg);
     }
 }
+
+
+.mob-menu {
+  display: none;
+}
     
     .hero-title {
       max-width: 496px;
       font-size: 56px;
       line-height: 1.07;
+      margin-bottom: 40px;
     }
 
     /* ===============DISCRIPTION================ */
-   
 
     .discrip {
       display: flex;
@@ -155,8 +161,7 @@
     /* =======TEAM========== */
 
     .team > .container {
-      padding-left: 107px;
-      padding-right: 107px;
+      max-width: 584px;
   }
 
     .team {
@@ -165,6 +170,7 @@
       margin-left: auto;
       margin-right: auto;
     }
+
 
     .employees {
       flex-direction: row;
@@ -181,15 +187,16 @@
   
     .team-card {
       flex-basis: calc((100% - 1 * 24px) / 2);
+      max-width: 264px;
     }
 
     
     /* =================CUSTOMERS=================== */
 
-    .customers-container {
-      padding-top: 96px;
-      padding-bottom: 96px;
+    .customers-container > .container {
+      max-width: 584px;
     }
+
   
     .customers-list-item {
       flex-basis: calc((100% - 3 * 24px) / 4);
@@ -209,9 +216,8 @@
   /* ==========FOOTER============== */
   
   .footer > .container {
-    padding-left: 108px;
-    padding-right: 108px;
-}
+    max-width: 564px;
+  }
 
 .footer-container {
   flex-direction: row;

@@ -1,6 +1,6 @@
 @media screen and (min-width: 1158px) {
     .container {
-      width: 1158px;
+      max-width: 1128px;
       padding-left: 15px;
   padding-right: 15px;
     }
@@ -9,10 +9,9 @@
 
     .contact-header {
       display: flex;
-      align-items: center;
   }
 
-  .contact {
+  .contact:not(:last-child) {
     margin-right: 40px;
   }
 
@@ -28,12 +27,11 @@
     letter-spacing: 0.02em;
 }
 
-   /* ============ HERO============ */
+.mob-menu {
+  display: none;
+}
 
-    .hero  {
-      padding-top: 188px;
-      padding-bottom: 188px;
-    }
+   /* ============ HERO============ */
 
     .hero {
       background-image: linear-gradient(
@@ -56,6 +54,10 @@
 }
 
 /* ====================DISCRIPTION======================= */
+.discription > .container {
+  max-width: 1158px;
+}
+
 .discription {
   padding-top: 120px;
     padding-bottom: 120px;
@@ -124,6 +126,7 @@
    /* =======TEAM========== */
 
    .team > .container {
+    max-width: 1158px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -146,6 +149,10 @@
   
     /* =================CUSTOMERS=================== */
 
+    .customers-container > .container {
+      max-width: 1158px;
+    }
+
     .customers-container {
       padding-top: 120px;
       padding-bottom: 120px;
@@ -160,6 +167,10 @@
     }
 
     /* =============FOOTER=========================== */
+    .footer > .container {
+      max-width: 1128px;
+    }
+    
     .footer {
       padding-top: 100px;
       padding-bottom: 100px;
