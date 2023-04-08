@@ -106,7 +106,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg-tab.jpg);
+    url(../images/hero/bg.jpg);
     }
     
     @media (min-device-pixel-ratio: 2),
@@ -117,7 +117,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg-tab-2x.jpg);
+    url(../images/hero-bg-desktop-2x.jpg);
     }
 }
 
