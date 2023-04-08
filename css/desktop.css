@@ -13,6 +13,7 @@
 
   .contact:not(:last-child) {
     margin-right: 40px;
+    margin-bottom: 0;
   }
 
   .contact-email{
@@ -33,6 +34,11 @@
 
    /* ============ HERO============ */
 
+   .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
     .hero {
       background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -51,6 +57,10 @@
     ),
     url(../images/hero-bg-desktop-2x.jpg);
     }
+}
+
+.hero-title {
+  margin-bottom: 48px;
 }
 
 /* ====================DISCRIPTION======================= */
@@ -168,7 +178,7 @@
 
     /* =============FOOTER=========================== */
     .footer > .container {
-      max-width: 1128px;
+      max-width: 1158px;
     }
     
     .footer {
@@ -178,8 +188,8 @@
   }
 
   .footer > .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .footer-container {

@@ -84,6 +84,31 @@ body {
   color: #404BBF;
 }
 
+.mob-menu > .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.mob-menu-phone {
+  font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+color: #4D5AE5;
+display: block;
+}
+
+.mob-menu-email {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+display: block;
+}
+
 /* ===============HEADER============== */
 
 .page-header {
@@ -691,7 +716,8 @@ color: rgba(255, 255, 255, 0.6);
 .modal {
   position: absolute;
   width: 100%;
-  height: 100%;
+  max-width: 392px;
+  min-height: 586px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -840,6 +866,7 @@ color: rgba(117, 117, 117, 0.5);
   margin-right: 8px;
   width: 16px;
   height: 16px;
+  flex-shrink: 0;
   content: "";
   cursor: pointer;
   border: 1.25px solid var(--color-navy-blue);
