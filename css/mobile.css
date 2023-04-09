@@ -213,7 +213,7 @@ color: #434455;
 
 }
 
-  @media screen and (min-width: 428px) {
+  @media screen and (max-width: 479px) {
     .list {
       list-style: none;
     }
@@ -264,6 +264,14 @@ color: #434455;
       padding-bottom: 24px;
     }
 
+    .mob-menu-top {
+      margin-bottom: auto;
+  }
+
+  .mob-menu-nav {
+    margin-bottom: 48px;
+}
+
     .mob-menu.is-hidden {
       opacity: 0;
       visibility: hidden;
@@ -301,10 +309,15 @@ color: #2E2F42;
       color: #404BBF;
     }
 
+    .contact-mob-menu {
+      gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
 
     .mob-soc-list {
       display: flex;
-      justify-content: center;
       gap: 56px;
 
     }
